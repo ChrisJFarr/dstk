@@ -5,7 +5,7 @@ Created on Fri Aug 26 20:45:10 2016
 @author: DIP
 """
 
-from code_files.contractions import CONTRACTION_MAP
+from contractions import CONTRACTION_MAP
 import re
 import nltk
 import string

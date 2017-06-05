@@ -1,19 +1,15 @@
 import numpy as np
-import random
 import pandas as pd
 
 # TODO Pull new ideas from here
 # Vaishali_Ganganwar An_overview_ of_classification_algorithms_for_imbalanced_datasets
 
 
-# TODO add support for multi class
-
-
 def classbalancer(x_train, y_train):
     """
     :param x_train: List or series of independent variables
     :param y_train: List or series of categorical dependent variable
-    :return: Two data frames with new training data with all classes balanced
+    :return: Two data frames (x and y) for new training data with all classes balanced
     to the original max class size
     """
 
